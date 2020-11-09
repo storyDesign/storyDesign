@@ -3,27 +3,27 @@
     {
       "id": 1,
       "title": "蔬果健康飲",
-      "pictrue": "/images/stories/01.jpg"
+      "pictrue": "/storyDesign/dist/images/stories/01.jpg"
     },
     {
       "id": 2,
       "title": "簡約手錶",
-      "pictrue": "/images/stories/02.jpg"
+      "pictrue": "/storyDesign/dist/images/stories/02.jpg"
     },
     {
       "id": 3,
       "title": "氣泡飲",
-      "pictrue": "/images/stories/03.jpg"
+      "pictrue": "/storyDesign/dist/images/stories/03.jpg"
     },
     {
       "id": 4,
       "title": "椰子油乳液",
-      "pictrue": "/images/stories/04.jpg"
+      "pictrue": "/storyDesign/dist/images/stories/04.jpg"
     },
     {
       "id": 5,
       "title": "蕈菇燉飯",
-      "pictrue": "/images/stories/05.jpg"
+      "pictrue": "/storyDesign/dist/images/stories/05.jpg"
     }
   ]
 }
