@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     getStories() {
-      this.$http.get('/api/db.json').then((res) => {
+      this.$http.get('/storyDesign/dist/data/db.json').then((res) => {
         this.stories = res.data.stories;
         console.log(this.stories);
       }).catch((error) => {
