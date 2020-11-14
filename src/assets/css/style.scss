@@ -20,32 +20,83 @@ figure  {
 }
 /*header*/
 .header {
-  height: 90px;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+}
+.header_logo_box {
+  height: 55px;
+  background-color: #FFF;
 }
 .header_logo {
-  width: 150px;
-  height: 53px;
+  width: 120px;
+  height: 41px;
 }
 .menu {
-  background-color: #F7F7F7;
+  background-color: rgba(0,0,0,.9);
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width .4s ease;
 }
+
 .menuItems {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  width: 100%;
 }
 .menuItem {
   padding: 1.5em;
+  white-space: nowrap;
   cursor: pointer;
   &:hover {
     background: #6e4f43;
     color: #fff;
   }
 }
+.openMenu {
+  position: absolute;
+  left: 2%;
+  padding: 5px;
+  cursor: pointer;
+}
+.closeMenu {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  font-size: 40px;
+  padding: 5px;
+  cursor: pointer;
+}
+.wrapper {
+  padding-top: 55px;
+}
+.content_padding {
+  padding: 2rem 2rem 3rem;
+  background-color: #F7F7F7;
+}
+.banner {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: -250px;
+  background-position-x: center;
+  height: 250px;
+  width: 100%;
+}
+
 /*footer*/
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 2rem;
   text-align: center;
 }
 .footer_logo {
@@ -101,4 +152,45 @@ figure  {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    position: initial;
+    height: auto;
+  }
+  .header_logo_box {
+    height: 90px;
+  }
+  .header_logo {
+    width: 150px;
+    height: 53px;
+  }
+  .menu {
+    background-color: #F7F7F7;
+    color: #333333;
+    position: initial;
+    width: 100% !important;
+    height: auto;
+    align-items: flex-start;
+    transition: none;
+  }
+  .menuItems {
+    display: flex;
+    justify-content: center;
+  }
+  .openMenu {
+    display: none;
+  }
+  .closeMenu {
+    display: none;
+  }
+  .wrapper {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    height: 550px;
+  }
 }

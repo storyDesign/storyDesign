@@ -1,12 +1,16 @@
 <template>
-<section>
+<section class="wrapper">
 <div class="story_content">
   <h1 class="title">{{story.title}}</h1>
-  <img src="@/assets/images/story/05/1.jpg" class="img-fluid"/>
-  <img src="@/assets/images/story/05/1.jpg" class="img-fluid"/>
-  <img src="@/assets/images/story/05/1.jpg" class="img-fluid"/>
-  <img src="@/assets/images/story/05/1.jpg" class="img-fluid"/>
-  <img src="@/assets/images/story/05/1.jpg" class="img-fluid"/>
+  <template v-if="story.image01">
+    <img :src="`/images/story/${story.image01}`" class="img-fluid"/>
+  </template>
+  <template v-if="story.image02">
+    <img :src="`/images/story/${story.image02}`" class="img-fluid"/>
+  </template>
+  <template v-if="story.image03">
+    <img :src="`/images/story/${story.image03}`" class="img-fluid"/>
+  </template>
 </div>
 </section>
 </template>
@@ -15,7 +19,7 @@
 export default {
   data() {
     return {
-      story: {},
+      story: [],
     };
   },
   created() {

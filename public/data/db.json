@@ -3,27 +3,98 @@
     {
       "id": 1,
       "title": "蔬果健康飲",
-      "pictrue": "/storyDesign/dist/images/stories/01.jpg"
+      "pictrue": "01.jpg",
+      "image01": "/05/1.jpg"
     },
     {
       "id": 2,
       "title": "簡約手錶",
-      "pictrue": "/storyDesign/dist/images/stories/02.jpg"
+      "pictrue": "02.jpg",
+      "image01": "/05/1.jpg"
     },
     {
       "id": 3,
       "title": "氣泡飲",
-      "pictrue": "/storyDesign/dist/images/stories/03.jpg"
+      "pictrue": "03.jpg",
+      "image01": "/05/1.jpg"
     },
     {
       "id": 4,
       "title": "椰子油乳液",
-      "pictrue": "/storyDesign/dist/images/stories/04.jpg"
+      "pictrue": "04.jpg",
+      "image01": "/05/1.jpg"
     },
     {
       "id": 5,
       "title": "蕈菇燉飯",
-      "pictrue": "/storyDesign/dist/images/stories/05.jpg"
+      "pictrue": "05.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "美容SPA",
+      "pictrue": "06.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "保養品美妝",
+      "pictrue": "07.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "保健食品",
+      "pictrue": "08.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "工業電機",
+      "pictrue": "09.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 10,
+      "title": "3C產品",
+      "pictrue": "10.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 11,
+      "title": "水果",
+      "pictrue": "11.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 12,
+      "title": "寵物",
+      "pictrue": "12.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 13,
+      "title": "婦幼",
+      "pictrue": "13.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "家俱",
+      "pictrue": "14.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 15,
+      "title": "服飾",
+      "pictrue": "15.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": 16,
+      "title": "飾品",
+      "pictrue": "16.jpg",
+      "image01": "/05/1.jpg"
     }
   ]
 }

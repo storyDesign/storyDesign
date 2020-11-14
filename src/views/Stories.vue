@@ -1,9 +1,9 @@
 <template>
-<section>
+<section class="wrapper">
   <div class="d-flex flex-wrap">
     <router-link v-for="story in stories" :key="story.id + story.title"
     :to="`/story/${story.id}`" tag="figure" class="figure">
-      <img :src="`${story.pictrue}`" class="img-fluid"/>
+      <img :src="`/storyDesign/dist//images/stories/${story.pictrue}`" class="img-fluid"/>
       <figcaption class="figcaption">{{ story.title }}</figcaption>
     </router-link>
   </div>
@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     getStories() {
-      this.$http.get('/storyDesign/dist/data/db.json').then((res) => {
+      this.$http.get('/storyDesign/dist//data/db.json').then((res) => {
         this.stories = res.data.stories;
         console.log(this.stories);
       }).catch((error) => {
@@ -34,7 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 .figure {
-  width: 25%;
+  width: 100%;
   background-color: #333;
   position: relative;
   line-height: 0;
@@ -62,5 +62,20 @@ export default {
   height: 48px;
   transition: all .35s ease;
   transform: translate3d(0,100%,0);
+}
+@media screen and (min-width: 460px) {
+  .figure {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .figure {
+    width: 33.3%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .figure {
+    width: 25%;
+  }
 }
 </style>

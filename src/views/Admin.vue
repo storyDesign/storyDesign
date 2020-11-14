@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="wrapper">
     <form @submit="addStory">
       <input type="text" v-model="info.title"/>
       <h1>{{info.title}}</h1>
