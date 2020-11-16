@@ -3,7 +3,7 @@
   <div class="d-flex flex-wrap">
     <router-link v-for="story in stories" :key="story.id + story.title"
     :to="`/story/${story.id}`" tag="figure" class="figure">
-      <img :src="`/storyDesign/dist/images/stories/${story.pictrue}`" class="img-fluid"/>
+      <img :src="`/images/stories/${story.pictrue}`" class="img-fluid"/>
       <figcaption class="figcaption">{{ story.title }}</figcaption>
     </router-link>
   </div>
@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     getStories() {
-      this.$http.get('/storyDesign/dist/data/db.json').then((res) => {
+      this.$http.get('/data/db.json').then((res) => {
         this.stories = res.data.stories;
         console.log(this.stories);
       }).catch((error) => {
