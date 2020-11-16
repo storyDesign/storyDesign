@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     getStories() {
-      this.$http.get('/data/db.json').then((res) => {
+      this.$http.get('/storyDesign/dist/data/db.json').then((res) => {
         res.data.stories.forEach((item) => {
           if (item.id === Number(this.$route.params.id)) {
             this.story = item;
