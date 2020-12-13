@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     getStories() {
-      this.$http.get('/api/db.json').then((res) => {
+      this.$http.get('https://storydesign.github.io/storyDesign/dist/data/db.json').then((res) => {
         this.stories = res.data.stories;
         console.log(this.stories);
       }).catch((error) => {
@@ -31,12 +31,13 @@ export default {
       });
     },
     addStory() {
-      // this.$http.post('/api/db.json', data).then((res) => {
-      //   console.log(res);
-      //   this.getStories();
-      // }).catch((error) => {
-      //   console.log(error);
-      // });
+      const dataInfo = this.info;
+      this.$http.post('https://storydesign.github.io/storyDesign/dist/data/db.json', dataInfo).then((res) => {
+        console.log(res);
+        this.getStories();
+      }).catch((error) => {
+        console.log(error);
+      });
     },
   },
 };

@@ -83,7 +83,10 @@ figure  {
 }
 .content_padding {
   padding: 2rem 2rem 3rem;
-  background-color: #F7F7F7;
+  background-color: #FFF;
+  &:nth-child(2n) {
+    background-color: #F7F7F7;
+  }
 }
 .banner {
   background-size: cover;
@@ -93,7 +96,10 @@ figure  {
   height: 250px;
   width: 100%;
 }
-
+.title {
+  color: #624033;
+  font-weight: normal;
+}
 /*footer*/
 .footer {
   padding: 5rem 2rem;

@@ -15,7 +15,7 @@
       <ul class="menuItems">
         <router-link tag="li" class="menuItem" to="/">作品案例</router-link>
         <router-link tag="li" class="menuItem" to="/about">關於我們</router-link>
-        <router-link tag="li" class="menuItem" to="/">價目表</router-link>
+        <router-link tag="li" class="menuItem" to="/offer">價目表</router-link>
         <router-link tag="li" class="menuItem" to="/help">問與答</router-link>
       </ul>
     </nav>
@@ -31,6 +31,14 @@ export default {
     closeMenu() {
       this.$refs.menu.style.width = 0;
     },
+  },
+  mounted() {
+    const menuItem = document.querySelectorAll('.menuItem');
+    menuItem.forEach((item) => {
+      item.addEventListener('click', () => {
+        this.closeMenu();
+      });
+    });
   },
 };
 </script>
