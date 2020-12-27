@@ -1,6 +1,6 @@
 <template>
 <section class="wrapper">
-<div class="story_content">
+<div class="story_content animate__animated animate__fadeIn">
   <h1 class="title">{{story.title}}</h1>
   <template v-if="story.image01">
     <img :src="`/storyDesign/dist/images/story/${story.image01}`" class="img-fluid"/>

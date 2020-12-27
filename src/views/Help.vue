@@ -2,7 +2,7 @@
 <section class="wrapper">
   <div class="banner help_banner"></div>
   <div class="content_padding">
-    <div class="container">
+    <div class="container animate__animated animate__fadeInUp">
       <div class="help_box">
         <div class="help_title">
           <span class="help_icon">

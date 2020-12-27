@@ -2,7 +2,7 @@
 <section class="wrapper">
   <div class="banner offer_banner"></div>
   <div class="content_padding">
-    <div class="container service_contain">
+    <div class="container service_contain animate__animated animate__fadeInUp">
       <div class="service_box">
         <h1 class="title">
           <span><i class="fab fa-bandcamp"></i></span>
@@ -10,8 +10,14 @@
         </h1>
         <div class="chart">
           <div class="chart_color_box">
-            <div class="chart_color chart_color1">時間省下 <span class="chart_num">85%</span></div>
-            <div class="chart_color chart_color2">每月薪資支出省下 <span class="chart_num">92%</span></div>
+            <div class="chart_color chart_color1" ref="chart_color1">
+              時間省下
+              <span class="chart_num">85%</span>
+            </div>
+            <div class="chart_color chart_color2" ref="chart_color2">
+              每月薪資支出省下
+              <span class="chart_num">92%</span>
+            </div>
           </div>
         </div>
       </div>
@@ -30,8 +36,8 @@
   </div>
   <div class="content_padding">
     <div class="container">
-      <h1 class="plan_h1">選擇方案</h1>
-      <div class="plan_box">
+      <h1 class="plan_h1" ref="chossesTitle">選擇方案</h1>
+      <div class="plan_box" ref="planBox">
         <div class="plan">
           <div class="plan_container">
             <div class="plan_title">
@@ -126,6 +132,25 @@
 
 <script>
 export default {
+  mounted() {
+    function animate(dom, effect) {
+      window.addEventListener('scroll', () => {
+        const scrollHeight = document.documentElement.scrollTop;
+        const obj = dom;
+        const objTop = obj.offsetTop;
+        const windowHeight = window.innerHeight;
+        if (scrollHeight + windowHeight > objTop) {
+          obj.classList.add('animate__animated', effect);
+        }
+        if (scrollHeight < objTop - windowHeight || scrollHeight > objTop + windowHeight) {
+          obj.classList.remove('animate__animated', effect);
+        }
+      });
+    }
+    animate(this.$refs.chossesTitle, 'animate__fadeInUp');
+    animate(this.$refs.planBox, 'animate__fadeIn');
+    animate(this.$refs.chart_color1, 'chart_color1');
+  },
 };
 </script>
 
@@ -174,9 +199,21 @@ export default {
 }
 .chart_color1 {
   width: 82%;
+  animation-name: chart_color1;
+  animation-duration: 2s;
+}
+@keyframes chart_color1 {
+  0% { width: 0; }
+  100% { width: 82%; }
 }
 .chart_color2 {
   width: 90%;
+  animation-name: chart_color2;
+  animation-duration: 2s;
+}
+@keyframes chart_color2 {
+  0% { width: 0; }
+  100% { width: 90%; }
 }
 .chart_num {
   font-weight: bold;
@@ -192,6 +229,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  animation-delay: 0.4s;
 }
 .plan {
   width: 100%;

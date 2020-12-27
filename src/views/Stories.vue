@@ -1,6 +1,6 @@
 <template>
 <section class="wrapper">
-  <div class="d-flex flex-wrap">
+  <div class="d-flex flex-wrap animate__animated animate__fadeIn">
     <router-link v-for="story in stories" :key="story.id + story.title"
     :to="`/story/${story.id}`" tag="figure" class="figure">
       <img :src="`/storyDesign/dist/images/stories/${story.pictrue}`" class="img-fluid"/>
