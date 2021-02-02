@@ -80,5 +80,9 @@ export default {
   color: #b67359;
   border: 1px solid #b67359;
   display: block;
+  &:hover {
+    color: #FFF;
+    background-color: #b67359;
+  }
 }
 </style>
