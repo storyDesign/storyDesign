@@ -13,7 +13,7 @@
         <i class="fas fa-times"></i>
       </span>
       <ul class="menuItems">
-        <router-link tag="li" class="menuItem" to="/">作品案例</router-link>
+        <router-link tag="li" class="menuItem" to="/">作品參考</router-link>
         <router-link tag="li" class="menuItem" to="/about">關於我們</router-link>
         <router-link tag="li" class="menuItem" to="/offer">價目表</router-link>
         <router-link tag="li" class="menuItem" to="/help">問與答</router-link>
