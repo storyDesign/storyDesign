@@ -2,6 +2,7 @@
 <section class="wrapper">
 <div class="story_content animate__animated animate__fadeIn">
   <h1 class="title">{{story.title}}</h1>
+  <h2 class="title">{{story.subTitle}}</h2>
   <ul class="imgs_box">
     <li v-if="story.image01">
       <img :src="`/storyDesign/images/story/${story.image01}`" class="img-fluid"/>
