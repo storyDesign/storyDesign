@@ -1,0 +1,174 @@
+{
+  "stories": [
+    {
+      "id": "water",
+      "title": "飲用水",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "water.jpg",
+      "image01": "water/01.png",
+      "image02": "water/02.png",
+      "image03": "water/01.jpg",
+      "image04": "water/02.jpg"
+    },
+    {
+      "id": "spa",
+      "title": "SPA美容會館",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "spa.jpg",
+      "image01": "spa/01.jpg",
+      "image02": "spa/02.jpg"
+    },
+    {
+      "id": "hair",
+      "title": "美髮沙龍",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "hair.jpg",
+      "image01": "hair/01.jpg",
+      "image02": "hair/02.jpg",
+      "image03": "hair/03.jpg"
+    },
+    {
+      "id": "carbide",
+      "title": "工業零件",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "carbide.jpg",
+      "image01": "carbide/01.jpg",
+      "image02": "carbide/02.jpg"
+    },
+    {
+      "id": "blackboard",
+      "title": "黑板",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "blackboard.jpg",
+      "image01": "blackboard/01.jpg"
+    },
+    {
+      "id": "pawnshop",
+      "title": "汽車借款",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "pawnshop.jpg",
+      "image01": "pawnshop/01.jpg",
+      "image02": "pawnshop/02.jpg",
+      "image03": "pawnshop/03.jpg"
+    },
+    {
+      "id": "hotspring",
+      "title": "溫泉會館",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "hotspring.jpg",
+      "image01": "hotspring/01.jpg",
+      "image02": "hotspring/02.jpg"
+    },
+    {
+      "id": "BIM",
+      "title": "建模師證照",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "BIM.jpg",
+      "image01": "BIM/01.jpg"
+    },
+    {
+      "id": "beauty",
+      "title": "保健美容生活",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "beauty.jpg",
+      "image01": "beauty/01.jpg",
+      "image02": "beauty/02.jpg",
+      "image03": "beauty/03.jpg"
+    },
+    {
+      "id": "motorcycle",
+      "title": "OEM零件",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "motorcycle.jpg",
+      "image01": "motorcycle/01.jpg",
+      "image02": "motorcycle/02.jpg",
+      "image03": "motorcycle/03.jpg",
+      "image04": "motorcycle/04.jpg",
+      "image05": "motorcycle/05.jpg"
+    },
+    {
+      "id": "2",
+      "title": "簡約手錶",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "02.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "3",
+      "title": "氣泡飲",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "03.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "4",
+      "title": "椰子油乳液",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "04.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "5",
+      "title": "蕈菇燉飯",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "05.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "7",
+      "title": "保養品美妝",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "07.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "10",
+      "title": "3C產品",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "10.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "11",
+      "title": "水果",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "11.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "12",
+      "title": "寵物",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "12.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "13",
+      "title": "婦幼",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "13.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "14",
+      "title": "家俱",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "14.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "15",
+      "title": "服飾",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "15.jpg",
+      "image01": "/05/1.jpg"
+    },
+    {
+      "id": "16",
+      "title": "飾品",
+      "subTitle": "執行內容: 設計+文案",
+      "pictrue": "16.jpg",
+      "image01": "/05/1.jpg"
+    }
+  ]
+}
