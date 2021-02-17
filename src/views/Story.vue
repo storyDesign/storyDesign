@@ -57,13 +57,14 @@ export default {
 .story_content {
   margin: 2rem auto;
   max-width: 1000px;
+  width: 92%;
 }
 .imgs_box {
   list-style: none;
   text-align: center;
   padding-left: 0;
   li {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
 .title {
