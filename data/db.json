@@ -3,7 +3,7 @@
     {
       "id": "water",
       "title": "飲用水",
-      "subTitle": "執行內容: 設計+文案",
+      "subTitle": "執行內容: 產品banner設計、文案設計",
       "pictrue": "water.jpg",
       "image01": "water/01.png",
       "image02": "water/02.png",
@@ -13,27 +13,41 @@
     {
       "id": "spa",
       "title": "SPA美容會館",
-      "subTitle": "執行內容: 設計+文案",
+      "subTitle": "執行內容: 產品banner設計",
       "pictrue": "spa.jpg",
-      "image01": "spa/01.jpg",
-      "image02": "spa/02.jpg"
+      "image01": "spa/01.png",
+      "image02": "spa/02.png",
+      "image03": "spa/01.jpg",
+      "image04": "spa/02.jpg"
     },
     {
-      "id": "hair",
-      "title": "美髮沙龍",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "hair.jpg",
-      "image01": "hair/01.jpg",
-      "image02": "hair/02.jpg",
-      "image03": "hair/03.jpg"
+      "id": "FANCY",
+      "title": "保養保健品",
+      "subTitle": "執行內容: 套版網站客製化首頁內容，網頁切版製作",
+      "pictrue": "fancy.jpg",
+      "image01": "fancy/01.png",
+      "image02": "fancy/02.png",
+      "image03": "fancy/01.jpg"
     },
     {
-      "id": "carbide",
-      "title": "工業零件",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "carbide.jpg",
-      "image01": "carbide/01.jpg",
-      "image02": "carbide/02.jpg"
+      "id": "beauty",
+      "title": "保健美容生活",
+      "subTitle": "執行內容: 輪播圖設計",
+      "pictrue": "beauty.jpg",
+      "image01": "beauty/01.png",
+      "image02": "beauty/02.png",
+      "image03": "beauty/01.jpg",
+      "image04": "beauty/02.jpg",
+      "image05": "beauty/03.jpg"
+    },
+    {
+      "id": "longyou",
+      "title": "美食團膳",
+      "subTitle": "執行內容: 靜態頁面設計、切版製作、基本SEO設定",
+      "pictrue": "longyou.jpg",
+      "image01": "longyou/01.png",
+      "image02": "longyou/02.png",
+      "image03": "longyou/01.jpg"
     },
     {
       "id": "blackboard",
@@ -67,15 +81,6 @@
       "image01": "BIM/01.jpg"
     },
     {
-      "id": "beauty",
-      "title": "保健美容生活",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "beauty.jpg",
-      "image01": "beauty/01.jpg",
-      "image02": "beauty/02.jpg",
-      "image03": "beauty/03.jpg"
-    },
-    {
       "id": "motorcycle",
       "title": "OEM零件",
       "subTitle": "執行內容: 設計+文案",
@@ -85,90 +90,6 @@
       "image03": "motorcycle/03.jpg",
       "image04": "motorcycle/04.jpg",
       "image05": "motorcycle/05.jpg"
-    },
-    {
-      "id": "2",
-      "title": "簡約手錶",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "02.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "3",
-      "title": "氣泡飲",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "03.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "4",
-      "title": "椰子油乳液",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "04.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "5",
-      "title": "蕈菇燉飯",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "05.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "7",
-      "title": "保養品美妝",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "07.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "10",
-      "title": "3C產品",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "10.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "11",
-      "title": "水果",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "11.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "12",
-      "title": "寵物",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "12.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "13",
-      "title": "婦幼",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "13.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "14",
-      "title": "家俱",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "14.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "15",
-      "title": "服飾",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "15.jpg",
-      "image01": "/05/1.jpg"
-    },
-    {
-      "id": "16",
-      "title": "飾品",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "16.jpg",
-      "image01": "/05/1.jpg"
     }
   ]
 }
