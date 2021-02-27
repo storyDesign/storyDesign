@@ -1,9 +1,58 @@
 {
   "stories": [
     {
+      "id": "industrial",
+      "title": "工業金屬零件",
+      "subTitle": "執行內容: 網站視覺、網站切版",
+      "desre": "網站設計",
+      "demo": "https://storydesign.github.io/industrail",
+      "pictrue": "industrial.jpg",
+      "image01": "industrial/01.png",
+      "image02": "industrial/02.png",
+      "image03": "industrial/03.jpg"
+    },
+    {
+      "id": "hao",
+      "title": "遊戲企業官方網站",
+      "subTitle": "執行內容: 網站視覺、網站切版",
+      "desre": "網站設計",
+      "demo": "https://happy9990929.github.io/hao/",
+      "pictrue": "hao.jpg",
+      "image01": "hao/1.png",
+      "image02": "hao/2.png",
+      "image03": "hao/3.png",
+      "image04": "hao/4.jpg"
+    },
+    {
+      "id": "pures",
+      "title": "南極冰鑽磷蝦油",
+      "subTitle": "執行內容: 網站視覺設計、文案設計",
+      "desre": "網站設計",
+      "pictrue": "pures.jpg",
+      "image01": "pures/01.png",
+      "image02": "pures/01.jpg",
+      "image03": "pures/02.jpg",
+      "image04": "pures/03.jpg"
+    },
+    {
+      "id": "vigorShine",
+      "title": "運動社群平台",
+      "subTitle": "執行內容: 網站視覺設計、文案設計、APP UI設計",
+      "desre": "網站設計",
+      "pictrue": "vigorShine.jpg",
+      "image01": "vigorShine/01.png",
+      "image02": "vigorShine/01.jpg",
+      "image03": "vigorShine/02.jpg",
+      "image04": "vigorShine/03.jpg",
+      "image05": "vigorShine/04.jpg",
+      "image06": "vigorShine/05.jpg",
+      "image07": "vigorShine/06.png"
+    },
+    {
       "id": "water",
       "title": "飲用水",
       "subTitle": "執行內容: 產品banner設計、文案設計",
+      "desre": "Banner設計",
       "pictrue": "water.jpg",
       "image01": "water/01.png",
       "image02": "water/02.png",
@@ -14,6 +63,7 @@
       "id": "spa",
       "title": "SPA美容會館",
       "subTitle": "執行內容: 產品banner設計",
+      "desre": "Banner設計",
       "pictrue": "spa.jpg",
       "image01": "spa/01.png",
       "image02": "spa/02.png",
@@ -24,6 +74,7 @@
       "id": "FANCY",
       "title": "保養保健品",
       "subTitle": "執行內容: 套版網站客製化首頁內容，網頁切版製作",
+      "desre": "網站設計",
       "pictrue": "fancy.jpg",
       "image01": "fancy/01.png",
       "image02": "fancy/02.png",
@@ -33,6 +84,7 @@
       "id": "beauty",
       "title": "保健美容生活",
       "subTitle": "執行內容: 輪播圖設計",
+      "desre": "Banner設計",
       "pictrue": "beauty.jpg",
       "image01": "beauty/01.png",
       "image02": "beauty/02.png",
@@ -41,55 +93,24 @@
       "image05": "beauty/03.jpg"
     },
     {
+      "id": "hair",
+      "title": "美髮沙龍",
+      "subTitle": "執行內容: 產品banner設計",
+      "desre": "Banner設計",
+      "pictrue": "hair.jpg",
+      "image01": "hair/01.jpg",
+      "image02": "hair/02.jpg",
+      "image03": "hair/03.jpg"
+    },
+    {
       "id": "longyou",
       "title": "美食團膳",
       "subTitle": "執行內容: 靜態頁面設計、切版製作、基本SEO設定",
+      "desre": "網站設計",
       "pictrue": "longyou.jpg",
       "image01": "longyou/01.png",
       "image02": "longyou/02.png",
       "image03": "longyou/01.jpg"
-    },
-    {
-      "id": "blackboard",
-      "title": "黑板",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "blackboard.jpg",
-      "image01": "blackboard/01.jpg"
-    },
-    {
-      "id": "pawnshop",
-      "title": "汽車借款",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "pawnshop.jpg",
-      "image01": "pawnshop/01.jpg",
-      "image02": "pawnshop/02.jpg",
-      "image03": "pawnshop/03.jpg"
-    },
-    {
-      "id": "hotspring",
-      "title": "溫泉會館",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "hotspring.jpg",
-      "image01": "hotspring/01.jpg",
-      "image02": "hotspring/02.jpg"
-    },
-    {
-      "id": "BIM",
-      "title": "建模師證照",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "BIM.jpg",
-      "image01": "BIM/01.jpg"
-    },
-    {
-      "id": "motorcycle",
-      "title": "OEM零件",
-      "subTitle": "執行內容: 設計+文案",
-      "pictrue": "motorcycle.jpg",
-      "image01": "motorcycle/01.jpg",
-      "image02": "motorcycle/02.jpg",
-      "image03": "motorcycle/03.jpg",
-      "image04": "motorcycle/04.jpg",
-      "image05": "motorcycle/05.jpg"
     }
   ]
 }
