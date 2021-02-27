@@ -5,6 +5,9 @@
     :to="`/story/${story.id}`" tag="figure" class="figure">
       <img :src="`/storyDesign/images/stories/${story.pictrue}`" class="img-fluid"/>
       <figcaption class="figcaption">{{ story.title }}</figcaption>
+      <div class="desrcBox">
+        <div class="desrc">{{story.desre}}</div>
+      </div>
     </router-link>
   </div>
 </section>
@@ -52,6 +55,9 @@ export default {
   img {
     transition: all .2s ease-in-out;
   }
+  &:hover .desrcBox {
+    opacity: 1;
+  }
 }
 .figcaption {
   background-color: rgba(255,255,255,.9);
@@ -63,6 +69,27 @@ export default {
   height: 48px;
   transition: all .35s ease;
   transform: translate3d(0,100%,0);
+}
+.desrcBox {
+  text-align: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .35s ease;
+  opacity: 0;
+}
+.desrc {
+  background-color: rgba(180,111,84,.9);
+  color: #FFF;
+  border: 1px solid rgba(255,255,255,.5);
+  min-width: 50%;
+  height: 105px;
+  line-height: 105px;
+  padding: 0 10px;
 }
 @media screen and (min-width: 460px) {
   .figure {

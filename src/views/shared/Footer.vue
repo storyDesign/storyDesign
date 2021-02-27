@@ -4,9 +4,9 @@
       <div class="footer_logo">
         <img src="@/assets/images/logo_footer.png" class="img-fluid">
       </div>
-      <p>網站設計 • 平面設計 • 電子商務經營規劃 • 網路行銷 • 關鍵字廣告 • 關鍵字排序</p>
+      <p>產品形象圖 • banner設計 • 輪播圖設計 • 網站設計 • 網路行銷 • 網站諮詢</p>
       <p class="footer_contact">
-        故事設計工作坊<br/>
+        故事設計<br/>
         <a href="mailto:storydesign999@gmail.com">storydesign999@gmail.com</a>
         <br/>
       </p>

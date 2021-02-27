@@ -19,8 +19,23 @@
     <li v-if="story.image05">
       <img :src="`/storyDesign/images/story/${story.image05}`" class="img-fluid"/>
     </li>
+    <li v-if="story.image06">
+      <img :src="`/storyDesign/images/story/${story.image06}`" class="img-fluid"/>
+    </li>
+    <li v-if="story.image07">
+      <img :src="`/storyDesign/images/story/${story.image07}`" class="img-fluid"/>
+    </li>
   </ul>
-  <router-link to="/" class="more">查看更多</router-link>
+  <a :href="story.demo" target="_blank" class="demo" v-if="story.demo">網站範例</a>
+  <div class="moreBox">
+    <router-link to="/" class="more">查看更多</router-link>
+  </div>
+</div>
+<div class="arrow next" @click="nextPage">
+  <i class="fas fa-long-arrow-alt-right"></i>
+</div>
+<div class="arrow prev" @click="prevPage">
+  <i class="fas fa-long-arrow-alt-left"></i>
 </div>
 </section>
 </template>
@@ -29,7 +44,11 @@
 export default {
   data() {
     return {
+      stories: [],
       story: [],
+      idx: 0,
+      next: 0,
+      prev: 0,
     };
   },
   created() {
@@ -39,15 +58,32 @@ export default {
     getStories() {
       const loader = this.$loading.show();
       this.$http.get('/storyDesign/data/db.json').then((res) => {
-        res.data.stories.forEach((item) => {
+        this.stories = res.data.stories;
+        res.data.stories.forEach((item, idx) => {
           if (item.id === this.$route.params.id) {
             loader.hide();
             this.story = item;
+            this.idx = idx;
           }
         });
       }).catch((error) => {
         console.log(error);
       });
+    },
+    nextPage() {
+      const storiesNum = this.stories.length;
+      this.next = this.idx + 1;
+      if (this.next !== storiesNum) {
+        this.$router.push(`/story/${this.stories[this.next].id}`);
+        this.getStories();
+      }
+    },
+    prevPage() {
+      this.prev = this.idx - 1;
+      if (this.prev >= 0) {
+        this.$router.push(`/story/${this.stories[this.prev].id}`);
+        this.getStories();
+      }
     },
   },
 };
@@ -73,6 +109,27 @@ export default {
   text-align: center;
   font-weight: normal;
 }
+.demo {
+  width: 200px;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  color: #333333;
+  border: 1px solid #333333;
+  display: block;
+  margin-bottom: 100px;
+  transition: all .2s ease-in-out;
+  &:hover {
+    color: #FFF;
+    background-color: #b67359;
+  }
+}
+.moreBox {
+  width: 100%;
+  border-top: 1px solid #cfcfcf;
+  padding-top: 50px;
+}
 .more {
   width: 200px;
   padding: 15px 0;
@@ -87,5 +144,33 @@ export default {
     color: #FFF;
     background-color: #b67359;
   }
+}
+@media screen and (min-width: 768px)
+ {
+   .arrow {
+    position: fixed;
+    top: 50%;
+    font-size: 2.5rem;
+    color: #b47055;
+    display: block;
+    cursor: pointer;
+    opacity: .5;
+    transition: all .35s ease-in-out;
+    &.next {
+      right: 5%;
+      &:hover {
+        transform: translateX(20px);
+      }
+    }
+    &.prev {
+      left: 5%;
+      &:hover {
+        transform: translateX(-20px);
+      }
+    }
+    &:hover {
+      opacity: 1;
+    }
+}
 }
 </style>
